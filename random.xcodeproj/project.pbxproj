@@ -28,6 +28,7 @@
 		9019BE7B1E3BB71300DDAE1D /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		9019BE7D1E3BC63C00DDAE1D /* BackgroundImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundImage.swift; path = ../BackgroundImage.swift; sourceTree = "<group>"; };
 		9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material Design.swift"; sourceTree = "<group>"; };
+		90F6457F1E47BA6200E45BB4 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +47,7 @@
 			children = (
 				9019BE681E3BB48400DDAE1D /* random */,
 				9019BE671E3BB48400DDAE1D /* Products */,
+				90F6457E1E47BA6100E45BB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +73,14 @@
 				9019BE7B1E3BB71300DDAE1D /* RoundedButton.swift */,
 			);
 			path = random;
+			sourceTree = "<group>";
+		};
+		90F6457E1E47BA6100E45BB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90F6457F1E47BA6200E45BB4 /* iAd.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +324,7 @@
 				9019BE7A1E3BB48400DDAE1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
