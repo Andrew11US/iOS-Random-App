@@ -10,16 +10,37 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var genLbl: UILabel!
+    @IBOutlet weak var genBtn: RoundedButton!
+    @IBOutlet weak var eraseBtn: RoundedButton!
+    @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var bgImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func genBtnPressed(_ sender: RoundedButton) {
+        
+        let randomNumber = arc4random_uniform(99999)
+        genLbl.text = String(randomNumber)
+        slider.value = Float(randomNumber)
+        
     }
 
-
+    @IBAction func eraseBtnPressed(_ sender: RoundedButton) {
+        
+        genLbl.text = ""
+        slider.value = 50_000
+        
+    }
+    
+    @IBAction func sliderChangedValue(_ sender: UISlider) {
+        
+        genLbl.text = String(Int(slider.value))
+        
+    }
+    
 }
 
