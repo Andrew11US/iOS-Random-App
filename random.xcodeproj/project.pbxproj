@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		28A78EEB9FD707B59722BDF0 /* Pods_random.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C3670BD9E9E906634CC9E7 /* Pods_random.framework */; };
 		900A311F1E5E24D800D38D6C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A311E1E5E24D800D38D6C /* CustomButton.swift */; };
+		900A31211E5E2BD000D38D6C /* SetValueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A31201E5E2BD000D38D6C /* SetValueVC.swift */; };
+		900A31271E5E341600D38D6C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A31261E5E341600D38D6C /* CustomTextField.swift */; };
 		9019BE6A1E3BB48400DDAE1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE691E3BB48400DDAE1D /* AppDelegate.swift */; };
 		9019BE6C1E3BB48400DDAE1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE6B1E3BB48400DDAE1D /* ViewController.swift */; };
 		9019BE6F1E3BB48400DDAE1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9019BE6D1E3BB48400DDAE1D /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 		52E6546724BEDFF142ECF34D /* Pods-random.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-random.debug.xcconfig"; path = "Pods/Target Support Files/Pods-random/Pods-random.debug.xcconfig"; sourceTree = "<group>"; };
 		900A311A1E5E245800D38D6C /* random-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "random-Bridging-Header.h"; sourceTree = "<group>"; };
 		900A311E1E5E24D800D38D6C /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		900A31201E5E2BD000D38D6C /* SetValueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetValueVC.swift; sourceTree = "<group>"; };
+		900A31261E5E341600D38D6C /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		9019BE661E3BB48400DDAE1D /* random.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = random.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9019BE691E3BB48400DDAE1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9019BE6B1E3BB48400DDAE1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +54,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		900A31221E5E2F6500D38D6C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9019BE721E3BB48400DDAE1D /* LaunchScreen.storyboard */,
+				9019BE6D1E3BB48400DDAE1D /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		900A31231E5E2F6B00D38D6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				900A31261E5E341600D38D6C /* CustomTextField.swift */,
+				9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		900A31241E5E2F7300D38D6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9019BE6B1E3BB48400DDAE1D /* ViewController.swift */,
+				900A31201E5E2BD000D38D6C /* SetValueVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		900A31251E5E2F7D00D38D6C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		9019BE5D1E3BB48400DDAE1D = {
 			isa = PBXGroup;
 			children = (
@@ -71,15 +109,15 @@
 		9019BE681E3BB48400DDAE1D /* random */ = {
 			isa = PBXGroup;
 			children = (
-				9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */,
+				900A31251E5E2F7D00D38D6C /* Services */,
+				900A31241E5E2F7300D38D6C /* Controllers */,
+				900A31231E5E2F6B00D38D6C /* Model */,
+				900A31221E5E2F6500D38D6C /* UI */,
 				9019BE7D1E3BC63C00DDAE1D /* BackgroundImage.swift */,
 				9019BE691E3BB48400DDAE1D /* AppDelegate.swift */,
 				900A311E1E5E24D800D38D6C /* CustomButton.swift */,
 				9019BE7B1E3BB71300DDAE1D /* RoundedButton.swift */,
-				9019BE6B1E3BB48400DDAE1D /* ViewController.swift */,
-				9019BE6D1E3BB48400DDAE1D /* Main.storyboard */,
 				9019BE701E3BB48400DDAE1D /* Assets.xcassets */,
-				9019BE721E3BB48400DDAE1D /* LaunchScreen.storyboard */,
 				9019BE751E3BB48400DDAE1D /* Info.plist */,
 				900A311A1E5E245800D38D6C /* random-Bridging-Header.h */,
 			);
@@ -233,6 +271,8 @@
 				9019BE7C1E3BB71300DDAE1D /* RoundedButton.swift in Sources */,
 				900A311F1E5E24D800D38D6C /* CustomButton.swift in Sources */,
 				9019BE6A1E3BB48400DDAE1D /* AppDelegate.swift in Sources */,
+				900A31271E5E341600D38D6C /* CustomTextField.swift in Sources */,
+				900A31211E5E2BD000D38D6C /* SetValueVC.swift in Sources */,
 				9019BE7E1E3BC63C00DDAE1D /* BackgroundImage.swift in Sources */,
 				9019BE801E3BE8A900DDAE1D /* Material Design.swift in Sources */,
 			);
