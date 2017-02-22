@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28A78EEB9FD707B59722BDF0 /* Pods_random.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C3670BD9E9E906634CC9E7 /* Pods_random.framework */; };
+		900A311F1E5E24D800D38D6C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A311E1E5E24D800D38D6C /* CustomButton.swift */; };
 		9019BE6A1E3BB48400DDAE1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE691E3BB48400DDAE1D /* AppDelegate.swift */; };
 		9019BE6C1E3BB48400DDAE1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE6B1E3BB48400DDAE1D /* ViewController.swift */; };
 		9019BE6F1E3BB48400DDAE1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9019BE6D1E3BB48400DDAE1D /* Main.storyboard */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52E6546724BEDFF142ECF34D /* Pods-random.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-random.debug.xcconfig"; path = "Pods/Target Support Files/Pods-random/Pods-random.debug.xcconfig"; sourceTree = "<group>"; };
+		900A311A1E5E245800D38D6C /* random-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "random-Bridging-Header.h"; sourceTree = "<group>"; };
+		900A311E1E5E24D800D38D6C /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		9019BE661E3BB48400DDAE1D /* random.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = random.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9019BE691E3BB48400DDAE1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9019BE6B1E3BB48400DDAE1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +34,8 @@
 		9019BE7D1E3BC63C00DDAE1D /* BackgroundImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundImage.swift; path = ../BackgroundImage.swift; sourceTree = "<group>"; };
 		9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material Design.swift"; sourceTree = "<group>"; };
 		90F6457F1E47BA6200E45BB4 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		9ED91776FFC2F20D978AEA5B /* Pods-random.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-random.release.xcconfig"; path = "Pods/Target Support Files/Pods-random/Pods-random.release.xcconfig"; sourceTree = "<group>"; };
+		F8C3670BD9E9E906634CC9E7 /* Pods_random.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_random.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A78EEB9FD707B59722BDF0 /* Pods_random.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +56,7 @@
 				9019BE681E3BB48400DDAE1D /* random */,
 				9019BE671E3BB48400DDAE1D /* Products */,
 				90F6457E1E47BA6100E45BB4 /* Frameworks */,
+				A3B62D13110CFF49FBD3D21E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,12 +74,14 @@
 				9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */,
 				9019BE7D1E3BC63C00DDAE1D /* BackgroundImage.swift */,
 				9019BE691E3BB48400DDAE1D /* AppDelegate.swift */,
+				900A311E1E5E24D800D38D6C /* CustomButton.swift */,
+				9019BE7B1E3BB71300DDAE1D /* RoundedButton.swift */,
 				9019BE6B1E3BB48400DDAE1D /* ViewController.swift */,
 				9019BE6D1E3BB48400DDAE1D /* Main.storyboard */,
 				9019BE701E3BB48400DDAE1D /* Assets.xcassets */,
 				9019BE721E3BB48400DDAE1D /* LaunchScreen.storyboard */,
 				9019BE751E3BB48400DDAE1D /* Info.plist */,
-				9019BE7B1E3BB71300DDAE1D /* RoundedButton.swift */,
+				900A311A1E5E245800D38D6C /* random-Bridging-Header.h */,
 			);
 			path = random;
 			sourceTree = "<group>";
@@ -79,8 +90,18 @@
 			isa = PBXGroup;
 			children = (
 				90F6457F1E47BA6200E45BB4 /* iAd.framework */,
+				F8C3670BD9E9E906634CC9E7 /* Pods_random.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3B62D13110CFF49FBD3D21E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52E6546724BEDFF142ECF34D /* Pods-random.debug.xcconfig */,
+				9ED91776FFC2F20D978AEA5B /* Pods-random.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,9 +111,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9019BE781E3BB48400DDAE1D /* Build configuration list for PBXNativeTarget "random" */;
 			buildPhases = (
+				3A6D5C2D4255FE5A724CD205 /* [CP] Check Pods Manifest.lock */,
 				9019BE621E3BB48400DDAE1D /* Sources */,
 				9019BE631E3BB48400DDAE1D /* Frameworks */,
 				9019BE641E3BB48400DDAE1D /* Resources */,
+				BB2B85AD60F173DEA9268DB9 /* [CP] Embed Pods Frameworks */,
+				ECF1A4CCECA24BEADE26CD10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -116,6 +140,7 @@
 					9019BE651E3BB48400DDAE1D = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = PTRW36GG78;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -151,6 +176,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A6D5C2D4255FE5A724CD205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2B85AD60F173DEA9268DB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-random/Pods-random-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF1A4CCECA24BEADE26CD10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-random/Pods-random-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9019BE621E3BB48400DDAE1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -158,6 +231,7 @@
 			files = (
 				9019BE6C1E3BB48400DDAE1D /* ViewController.swift in Sources */,
 				9019BE7C1E3BB71300DDAE1D /* RoundedButton.swift in Sources */,
+				900A311F1E5E24D800D38D6C /* CustomButton.swift in Sources */,
 				9019BE6A1E3BB48400DDAE1D /* AppDelegate.swift in Sources */,
 				9019BE7E1E3BC63C00DDAE1D /* BackgroundImage.swift in Sources */,
 				9019BE801E3BE8A900DDAE1D /* Material Design.swift in Sources */,
@@ -281,26 +355,33 @@
 		};
 		9019BE791E3BB48400DDAE1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E6546724BEDFF142ECF34D /* Pods-random.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = random/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.random;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "random/random-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		9019BE7A1E3BB48400DDAE1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED91776FFC2F20D978AEA5B /* Pods-random.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = random/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.random;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "random/random-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
