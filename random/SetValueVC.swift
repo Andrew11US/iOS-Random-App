@@ -13,9 +13,6 @@ class SetValueVC: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var minTextField: CustomTextField!
     @IBOutlet weak var maxTextField: CustomTextField!
     
-    var minValue: Int = 0
-    var maxValue: Int = 99_999
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -34,22 +31,19 @@ class SetValueVC: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func minValueSet(_ sender: Any) {
-        
-        
-        
+        let value = minTextField.text
+        print(value!)
     }
     
     @IBAction func maxValueSet(_ sender: Any) {
-        
-        
-        
+        let value = maxTextField.text
+        print(value!)
     }
     
     @IBAction func backBtnPressed(_ sender: UIButton) {
         
         dismiss(animated: true, completion: nil)
     }
-    
 
 
 }

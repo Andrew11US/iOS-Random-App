@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RandomVC: UIViewController {
 
     @IBOutlet weak var genLbl: UILabel!
     @IBOutlet weak var genBtn: RoundedButton!
@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
     }
 
