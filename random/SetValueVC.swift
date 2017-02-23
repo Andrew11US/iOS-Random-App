@@ -22,7 +22,6 @@ class SetValueVC: UIViewController, UITextFieldDelegate {
         self.minTextField.delegate = self
         self.maxTextField.delegate = self
 
-        self.navigationController?.isNavigationBarHidden = false
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

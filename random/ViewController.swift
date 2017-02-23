@@ -20,10 +20,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        self.navigationController?.isNavigationBarHidden = true
-    }
 
     @IBAction func genBtnPressed(_ sender: RoundedButton) {
         
