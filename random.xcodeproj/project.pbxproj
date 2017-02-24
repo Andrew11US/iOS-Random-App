@@ -20,6 +20,7 @@
 		9019BE7C1E3BB71300DDAE1D /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE7B1E3BB71300DDAE1D /* RoundedButton.swift */; };
 		9019BE7E1E3BC63C00DDAE1D /* BackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE7D1E3BC63C00DDAE1D /* BackgroundImage.swift */; };
 		9019BE801E3BE8A900DDAE1D /* Material Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */; };
+		906A37A51E60530500FA0AB4 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A37A41E60530500FA0AB4 /* IntExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		9019BE7B1E3BB71300DDAE1D /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		9019BE7D1E3BC63C00DDAE1D /* BackgroundImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundImage.swift; path = ../BackgroundImage.swift; sourceTree = "<group>"; };
 		9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material Design.swift"; sourceTree = "<group>"; };
+		906A37A41E60530500FA0AB4 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		90F6457F1E47BA6200E45BB4 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		9ED91776FFC2F20D978AEA5B /* Pods-random.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-random.release.xcconfig"; path = "Pods/Target Support Files/Pods-random/Pods-random.release.xcconfig"; sourceTree = "<group>"; };
 		F8C3670BD9E9E906634CC9E7 /* Pods_random.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_random.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				9001DEBE1E5F79F2009CEE29 /* GlobalData.swift */,
+				906A37A41E60530500FA0AB4 /* IntExtension.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				9019BE6C1E3BB48400DDAE1D /* RandomVC.swift in Sources */,
 				9019BE7C1E3BB71300DDAE1D /* RoundedButton.swift in Sources */,
 				900A311F1E5E24D800D38D6C /* CustomButton.swift in Sources */,
+				906A37A51E60530500FA0AB4 /* IntExtension.swift in Sources */,
 				9019BE6A1E3BB48400DDAE1D /* AppDelegate.swift in Sources */,
 				900A31271E5E341600D38D6C /* CustomTextField.swift in Sources */,
 				900A31211E5E2BD000D38D6C /* SetValueVC.swift in Sources */,

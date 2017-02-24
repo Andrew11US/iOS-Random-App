@@ -11,30 +11,50 @@ import UIKit
 class RandomVC: UIViewController {
 
     @IBOutlet weak var genLbl: UILabel!
-    @IBOutlet weak var genBtn: RoundedButton!
-    @IBOutlet weak var eraseBtn: RoundedButton!
+    @IBOutlet weak var genBtn: CustomButton!
+    @IBOutlet weak var eraseBtn: CustomButton!
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var bgImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         
+        if value1 < value2 {
+            slider.minimumValue = Float(value1)
+            slider.maximumValue = Float(value2)
+        } else {
+            slider.minimumValue = Float(value2)
+            slider.maximumValue = Float(value1)
+        }
         
+        slider.value = Float(Float(value1 + value2) / 2)
     }
 
-    @IBAction func genBtnPressed(_ sender: RoundedButton) {
+    @IBAction func genBtnPressed(_ sender: CustomButton) {
         
-        let randomNumber = arc4random_uniform(99999)
+        let randomNumber: Int
+        
+        if value1 < value2 {
+            
+            randomNumber = Int.random(range: value1..<(value2 + 1))
+        } else {
+            
+            randomNumber = Int.random(range: value2..<(value1 + 1))
+        }
+        
         genLbl.text = String(randomNumber)
         slider.value = Float(randomNumber)
-        
+
     }
 
-    @IBAction func eraseBtnPressed(_ sender: RoundedButton) {
+    @IBAction func eraseBtnPressed(_ sender: CustomButton) {
         
         genLbl.text = ""
-        slider.value = 50_000
+        slider.value = Float(Float(value1 + value2) / 2)
         
     }
     
@@ -46,7 +66,6 @@ class RandomVC: UIViewController {
     
     @IBAction func setValueBtnPressed(_ sender: UIButton) {
     }
-    
-    
+  
 }
 

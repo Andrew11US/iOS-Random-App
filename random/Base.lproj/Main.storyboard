@@ -113,7 +113,7 @@
                                     <segue destination="EDt-VL-sPx" kind="show" id="wcr-pk-DHM"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50000" minValue="0.0" maxValue="99999" translatesAutoresizingMaskIntoConstraints="NO" id="Jmt-kz-dlI">
+                            <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="Jmt-kz-dlI">
                                 <rect key="frame" x="14" y="579" width="347" height="31"/>
                                 <color key="minimumTrackTintColor" red="0.91046728810710664" green="0.059573509005532592" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="maximumTrackTintColor" red="0.087917984183568665" green="0.60729120463662845" blue="0.91046728810710664" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -150,7 +150,6 @@
                             <constraint firstItem="Ju4-HO-G3C" firstAttribute="top" secondItem="l36-WO-0Zj" secondAttribute="bottom" constant="12" id="z7F-7f-gAl"/>
                         </constraints>
                     </view>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="bgImage" destination="RdZ-Ax-Cg0" id="PDp-jS-d6r"/>
                         <outlet property="eraseBtn" destination="Ju4-HO-G3C" id="nQN-ty-opl"/>
