@@ -29,13 +29,13 @@ class BackgroundImage: UIImageView {
         
         var imgArray = [UIImage]()
         
-        for x in 1...5 {
+        for x in 1...8 {
             let img = UIImage(named: "bg\(x).jpg")
             imgArray.append(img!)
         }
         
         self.animationImages = imgArray
-        self.animationDuration = 40.0
+        self.animationDuration = 20.0
         self.animationRepeatCount = 0
         self.startAnimating()
     }
