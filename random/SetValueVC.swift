@@ -58,7 +58,7 @@ class SetValueVC: UIViewController, UITextFieldDelegate {
             minTextField.text = String(value1)
             print(value1)
         } else {
-            
+
             value1 = Int(minTextField.text!)!
             print(value1)
         }
