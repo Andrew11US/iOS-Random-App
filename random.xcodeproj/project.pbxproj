@@ -196,7 +196,7 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = PTRW36GG78;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -421,9 +421,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = random/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.random;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "984c1b4f-200f-4602-9252-104276040fc6";
+				PROVISIONING_PROFILE_SPECIFIER = RandomDevProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "random/random-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -436,11 +439,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = random/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.random;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "88ad6678-f9ca-43c6-8a6b-ea868fb76321";
+				PROVISIONING_PROFILE_SPECIFIER = RandomDistributionProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "random/random-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
