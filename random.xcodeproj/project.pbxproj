@@ -22,6 +22,7 @@
 		9019BE801E3BE8A900DDAE1D /* Material Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */; };
 		906A37A51E60530500FA0AB4 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A37A41E60530500FA0AB4 /* IntExtension.swift */; };
 		906A37A71E60641E00FA0AB4 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 906A37A61E60641E00FA0AB4 /* Lato-Bold.ttf */; };
+		90A436631E7C7F770057ECF5 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A436621E7C7F770057ECF5 /* RoundedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material Design.swift"; sourceTree = "<group>"; };
 		906A37A41E60530500FA0AB4 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		906A37A61E60641E00FA0AB4 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		90A436621E7C7F770057ECF5 /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		90F6457F1E47BA6200E45BB4 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		9ED91776FFC2F20D978AEA5B /* Pods-random.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-random.release.xcconfig"; path = "Pods/Target Support Files/Pods-random/Pods-random.release.xcconfig"; sourceTree = "<group>"; };
 		F8C3670BD9E9E906634CC9E7 /* Pods_random.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_random.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +108,7 @@
 				900A31261E5E341600D38D6C /* CustomTextField.swift */,
 				900A311E1E5E24D800D38D6C /* CustomButton.swift */,
 				9019BE7B1E3BB71300DDAE1D /* RoundedButton.swift */,
+				90A436621E7C7F770057ECF5 /* RoundedView.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				900A31211E5E2BD000D38D6C /* SetValueVC.swift in Sources */,
 				9001DEBF1E5F79F2009CEE29 /* GlobalData.swift in Sources */,
 				9019BE7E1E3BC63C00DDAE1D /* BackgroundImage.swift in Sources */,
+				90A436631E7C7F770057ECF5 /* RoundedView.swift in Sources */,
 				9019BE801E3BE8A900DDAE1D /* Material Design.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
