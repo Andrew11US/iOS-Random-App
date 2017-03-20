@@ -57,6 +57,12 @@ class SetValueVC: UIViewController, UITextFieldDelegate {
             value1 = 0
             minTextField.text = String(value1)
             print(value1)
+        } else if Int(minTextField.text!)! > 999999999 {
+            
+            value1 = 999999999
+            minTextField.text = String(value1)
+            print(value1)
+            
         } else {
 
             value1 = Int(minTextField.text!)!
@@ -72,6 +78,12 @@ class SetValueVC: UIViewController, UITextFieldDelegate {
             value2 = 99
             maxTextField.text = String(value2)
             print(value2)
+        } else if Int(maxTextField.text!)! > 999999999 {
+            
+            value2 = 999999999
+            maxTextField.text = String(value2)
+            print(value2)
+            
         } else {
             
             value2 = Int(maxTextField.text!)!

@@ -18,3 +18,6 @@ struct StoredValues {
 
 var value1 = 0
 var value2 = 99
+
+// Green Color
+// Hash 00C1A2
