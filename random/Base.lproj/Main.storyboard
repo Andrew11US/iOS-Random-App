@@ -25,12 +25,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="RdZ-Ax-Cg0">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="White" translatesAutoresizingMaskIntoConstraints="NO" id="wUZ-NL-Lab">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="White" translatesAutoresizingMaskIntoConstraints="NO" id="wUZ-NL-Lab">
                                 <rect key="frame" x="-0.66666666666665719" y="-0.66666666666668561" width="414.33333333333337" height="736.33333333333326"/>
                             </imageView>
                             <view hidden="YES" clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9oU-eo-J4P">
                                 <rect key="frame" x="-0.66666666666665719" y="-0.66666666666668561" width="414.33333333333337" height="736.33333333333326"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RANDOM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vFh-DU-qnq">
                                 <rect key="frame" x="20" y="44" width="374" height="80"/>
@@ -201,12 +200,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="axZ-Xu-k6N">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="White" translatesAutoresizingMaskIntoConstraints="NO" id="PbL-6F-dLu">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="White" translatesAutoresizingMaskIntoConstraints="NO" id="PbL-6F-dLu">
                                 <rect key="frame" x="-0.66666666666665719" y="0.0" width="414.33333333333337" height="736"/>
                             </imageView>
                             <view hidden="YES" clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h07-SP-glr">
                                 <rect key="frame" x="-0.66666666666665719" y="0.0" width="414.33333333333337" height="736"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view clipsSubviews="YES" alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bzt-O3-tV6">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
@@ -238,9 +236,9 @@
                                     <action selector="backBtnPressed:" destination="EDt-VL-sPx" eventType="touchUpInside" id="2hC-Mn-utd"/>
                                 </connections>
                             </button>
-                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="umq-zK-mN6" customClass="RoundedView" customModule="random" customModuleProvider="target">
+                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="umq-zK-mN6" customClass="RoundedView" customModule="random" customModuleProvider="target">
                                 <rect key="frame" x="8" y="95" width="398" height="50"/>
-                                <color key="backgroundColor" red="0.99526435136795044" green="0.17781957983970642" blue="0.21938437223434448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="6R6-8V-nmT">
                                         <variation key="heightClass=regular-widthClass=regular" constant="100"/>
@@ -252,9 +250,9 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="32e-sI-wyM" customClass="RoundedView" customModule="random" customModuleProvider="target">
+                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="32e-sI-wyM" customClass="RoundedView" customModule="random" customModuleProvider="target">
                                 <rect key="frame" x="8" y="165" width="398" height="50"/>
-                                <color key="backgroundColor" red="0.99526768922805786" green="0.17300230264663696" blue="0.23795762658119202" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="ug2-ZN-Wbk">
                                         <variation key="heightClass=regular-widthClass=regular" constant="100"/>
@@ -277,7 +275,7 @@
                                     </constraint>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="36"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.99526768919999997" green="0.17300230259999999" blue="0.2379576266" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="52"/>
@@ -294,13 +292,13 @@
                                     </constraint>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="36"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.99526768919999997" green="0.17300230259999999" blue="0.2379576266" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="52"/>
                                 </variation>
                             </label>
-                            <textField clipsSubviews="YES" alpha="0.94999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="20" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="qAb-dW-fXw" customClass="CustomTextField" customModule="random" customModuleProvider="target">
+                            <textField clipsSubviews="YES" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="20" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="qAb-dW-fXw" customClass="CustomTextField" customModule="random" customModuleProvider="target">
                                 <rect key="frame" x="150" y="100" width="234" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -308,7 +306,7 @@
                                         <variation key="heightClass=regular-widthClass=regular" constant="60"/>
                                     </constraint>
                                 </constraints>
-                                <color key="textColor" red="0.99526435140000002" green="0.17781957979999999" blue="0.21938437220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.99526768919999997" green="0.17300230259999999" blue="0.2379576266" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                 <userDefinedRuntimeAttributes>
@@ -323,7 +321,7 @@
                                     <action selector="minValueSet:" destination="EDt-VL-sPx" eventType="editingDidEnd" id="nbZ-dd-N6i"/>
                                 </connections>
                             </textField>
-                            <textField clipsSubviews="YES" alpha="0.94999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="99" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="20" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="y3t-fw-W18" customClass="CustomTextField" customModule="random" customModuleProvider="target">
+                            <textField clipsSubviews="YES" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="99" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="20" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="y3t-fw-W18" customClass="CustomTextField" customModule="random" customModuleProvider="target">
                                 <rect key="frame" x="150" y="170" width="234" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
