@@ -22,6 +22,10 @@
 		9019BE801E3BE8A900DDAE1D /* Material Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */; };
 		906A37A51E60530500FA0AB4 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A37A41E60530500FA0AB4 /* IntExtension.swift */; };
 		906A37A71E60641E00FA0AB4 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 906A37A61E60641E00FA0AB4 /* Lato-Bold.ttf */; };
+		90A3CFDD1EADE340008D50BF /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CFD91EADE340008D50BF /* Ubuntu-Bold.ttf */; };
+		90A3CFDE1EADE340008D50BF /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CFDA1EADE340008D50BF /* Ubuntu-Light.ttf */; };
+		90A3CFDF1EADE340008D50BF /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CFDB1EADE340008D50BF /* Ubuntu-Medium.ttf */; };
+		90A3CFE01EADE340008D50BF /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CFDC1EADE340008D50BF /* Ubuntu-Regular.ttf */; };
 		90A436631E7C7F770057ECF5 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A436621E7C7F770057ECF5 /* RoundedView.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +48,10 @@
 		9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material Design.swift"; sourceTree = "<group>"; };
 		906A37A41E60530500FA0AB4 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		906A37A61E60641E00FA0AB4 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		90A3CFD91EADE340008D50BF /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		90A3CFDA1EADE340008D50BF /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		90A3CFDB1EADE340008D50BF /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		90A3CFDC1EADE340008D50BF /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		90A436621E7C7F770057ECF5 /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		90F6457F1E47BA6200E45BB4 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		9ED91776FFC2F20D978AEA5B /* Pods-random.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-random.release.xcconfig"; path = "Pods/Target Support Files/Pods-random/Pods-random.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +74,10 @@
 			isa = PBXGroup;
 			children = (
 				906A37A61E60641E00FA0AB4 /* Lato-Bold.ttf */,
+				90A3CFD91EADE340008D50BF /* Ubuntu-Bold.ttf */,
+				90A3CFDA1EADE340008D50BF /* Ubuntu-Light.ttf */,
+				90A3CFDB1EADE340008D50BF /* Ubuntu-Medium.ttf */,
+				90A3CFDC1EADE340008D50BF /* Ubuntu-Regular.ttf */,
 				900A311A1E5E245800D38D6C /* random-Bridging-Header.h */,
 				9019BE691E3BB48400DDAE1D /* AppDelegate.swift */,
 				9019BE751E3BB48400DDAE1D /* Info.plist */,
@@ -226,9 +238,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A3CFE01EADE340008D50BF /* Ubuntu-Regular.ttf in Resources */,
+				90A3CFDD1EADE340008D50BF /* Ubuntu-Bold.ttf in Resources */,
 				9019BE741E3BB48400DDAE1D /* LaunchScreen.storyboard in Resources */,
+				90A3CFDF1EADE340008D50BF /* Ubuntu-Medium.ttf in Resources */,
 				9019BE711E3BB48400DDAE1D /* Assets.xcassets in Resources */,
 				9019BE6F1E3BB48400DDAE1D /* Main.storyboard in Resources */,
+				90A3CFDE1EADE340008D50BF /* Ubuntu-Light.ttf in Resources */,
 				906A37A71E60641E00FA0AB4 /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
