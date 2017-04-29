@@ -27,10 +27,6 @@ class CustomTextField: UITextField {
         return textRect(forBounds: bounds)
     }
     
-    override func awakeFromNib() {
-        self.layer.cornerRadius = 5.0
-    }
-    
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         

@@ -45,7 +45,7 @@ class CustomButton: UIButton {
     func scaleToSmall() {
         
         let scaleAmim = POPBasicAnimation(propertyNamed: kPOPLayerScaleXY)
-        scaleAmim?.toValue = NSValue(cgSize: CGSize(width: 0.75, height: 0.75))
+        scaleAmim?.toValue = NSValue(cgSize: CGSize(width: 0.9, height: 0.9))
         self.layer.pop_add(scaleAmim, forKey: "LayerScaleSmallAnimation")
 
     }
