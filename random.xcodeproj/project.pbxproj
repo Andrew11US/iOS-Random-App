@@ -27,7 +27,18 @@
 		90A3CFDF1EADE340008D50BF /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CFDB1EADE340008D50BF /* Ubuntu-Medium.ttf */; };
 		90A3CFE01EADE340008D50BF /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CFDC1EADE340008D50BF /* Ubuntu-Regular.ttf */; };
 		90A436631E7C7F770057ECF5 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A436621E7C7F770057ECF5 /* RoundedView.swift */; };
+		90EBABE71EDD8FD10088C772 /* randomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EBABE61EDD8FD10088C772 /* randomUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90EBABE91EDD8FD10088C772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9019BE5E1E3BB48400DDAE1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9019BE651E3BB48400DDAE1D;
+			remoteInfo = random;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		52E6546724BEDFF142ECF34D /* Pods-random.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-random.debug.xcconfig"; path = "Pods/Target Support Files/Pods-random/Pods-random.debug.xcconfig"; sourceTree = "<group>"; };
@@ -53,6 +64,9 @@
 		90A3CFDB1EADE340008D50BF /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
 		90A3CFDC1EADE340008D50BF /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		90A436621E7C7F770057ECF5 /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		90EBABE41EDD8FD10088C772 /* randomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = randomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EBABE61EDD8FD10088C772 /* randomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomUITests.swift; sourceTree = "<group>"; };
+		90EBABE81EDD8FD10088C772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90F6457F1E47BA6200E45BB4 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		9ED91776FFC2F20D978AEA5B /* Pods-random.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-random.release.xcconfig"; path = "Pods/Target Support Files/Pods-random/Pods-random.release.xcconfig"; sourceTree = "<group>"; };
 		F8C3670BD9E9E906634CC9E7 /* Pods_random.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_random.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +78,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A78EEB9FD707B59722BDF0 /* Pods_random.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EBABE11EDD8FD10088C772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				9019BE681E3BB48400DDAE1D /* random */,
+				90EBABE51EDD8FD10088C772 /* randomUITests */,
 				9019BE671E3BB48400DDAE1D /* Products */,
 				90F6457E1E47BA6100E45BB4 /* Frameworks */,
 				A3B62D13110CFF49FBD3D21E /* Pods */,
@@ -139,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				9019BE661E3BB48400DDAE1D /* random.app */,
+				90EBABE41EDD8FD10088C772 /* randomUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +177,15 @@
 				9001DEBD1E5F78E4009CEE29 /* Support Files */,
 			);
 			path = random;
+			sourceTree = "<group>";
+		};
+		90EBABE51EDD8FD10088C772 /* randomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90EBABE61EDD8FD10088C772 /* randomUITests.swift */,
+				90EBABE81EDD8FD10088C772 /* Info.plist */,
+			);
+			path = randomUITests;
 			sourceTree = "<group>";
 		};
 		90F6457E1E47BA6100E45BB4 /* Frameworks */ = {
@@ -197,13 +229,31 @@
 			productReference = 9019BE661E3BB48400DDAE1D /* random.app */;
 			productType = "com.apple.product-type.application";
 		};
+		90EBABE31EDD8FD10088C772 /* randomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EBABED1EDD8FD10088C772 /* Build configuration list for PBXNativeTarget "randomUITests" */;
+			buildPhases = (
+				90EBABE01EDD8FD10088C772 /* Sources */,
+				90EBABE11EDD8FD10088C772 /* Frameworks */,
+				90EBABE21EDD8FD10088C772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90EBABEA1EDD8FD10088C772 /* PBXTargetDependency */,
+			);
+			name = randomUITests;
+			productName = randomUITests;
+			productReference = 90EBABE41EDD8FD10088C772 /* randomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		9019BE5E1E3BB48400DDAE1D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Andrii Halabuda";
 				TargetAttributes = {
@@ -211,7 +261,13 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = PTRW36GG78;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
+					};
+					90EBABE31EDD8FD10088C772 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PTRW36GG78;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9019BE651E3BB48400DDAE1D;
 					};
 				};
 			};
@@ -229,6 +285,7 @@
 			projectRoot = "";
 			targets = (
 				9019BE651E3BB48400DDAE1D /* random */,
+				90EBABE31EDD8FD10088C772 /* randomUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +303,13 @@
 				9019BE6F1E3BB48400DDAE1D /* Main.storyboard in Resources */,
 				90A3CFDE1EADE340008D50BF /* Ubuntu-Light.ttf in Resources */,
 				906A37A71E60641E00FA0AB4 /* Lato-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EBABE21EDD8FD10088C772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +382,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90EBABE01EDD8FD10088C772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EBABE71EDD8FD10088C772 /* randomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90EBABEA1EDD8FD10088C772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9019BE651E3BB48400DDAE1D /* random */;
+			targetProxy = 90EBABE91EDD8FD10088C772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9019BE6D1E3BB48400DDAE1D /* Main.storyboard */ = {
@@ -439,14 +519,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = PTRW36GG78;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = random/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.random;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "984c1b4f-200f-4602-9252-104276040fc6";
-				PROVISIONING_PROFILE_SPECIFIER = RandomDevProfile;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "random/random-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -459,17 +540,53 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = PTRW36GG78;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = random/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.random;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "88ad6678-f9ca-43c6-8a6b-ea868fb76321";
-				PROVISIONING_PROFILE_SPECIFIER = RandomDistributionProfile;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "random/random-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		90EBABEB1EDD8FD10088C772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PTRW36GG78;
+				INFOPLIST_FILE = randomUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.randomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = random;
+			};
+			name = Debug;
+		};
+		90EBABEC1EDD8FD10088C772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PTRW36GG78;
+				INFOPLIST_FILE = randomUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.randomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = random;
 			};
 			name = Release;
 		};
@@ -490,6 +607,15 @@
 			buildConfigurations = (
 				9019BE791E3BB48400DDAE1D /* Debug */,
 				9019BE7A1E3BB48400DDAE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90EBABED1EDD8FD10088C772 /* Build configuration list for PBXNativeTarget "randomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EBABEB1EDD8FD10088C772 /* Debug */,
+				90EBABEC1EDD8FD10088C772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
