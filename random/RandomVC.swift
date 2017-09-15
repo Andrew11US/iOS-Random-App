@@ -5,6 +5,8 @@
 //  Created by Andrew Foster on 1/27/17.
 //  Copyright © 2017 Andrii Halabuda. All rights reserved.
 //
+///---Future releases---///
+//-> AppleWatch app
 
 import UIKit
 
