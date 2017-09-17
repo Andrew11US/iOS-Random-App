@@ -30,7 +30,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Landscape" translatesAutoresizingMaskIntoConstraints="NO" id="RdZ-Ax-Cg0">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LandscapeBlur" translatesAutoresizingMaskIntoConstraints="NO" id="RdZ-Ax-Cg0">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view clipsSubviews="YES" alpha="0.34999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9oU-eo-J4P">
@@ -111,7 +111,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="26"/>
                                 <state key="normal" title="Erase">
-                                    <color key="titleColor" red="0.0" green="0.32809787330000001" blue="0.43709309899999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.32941176470588235" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -201,7 +201,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Landscape" translatesAutoresizingMaskIntoConstraints="NO" id="axZ-Xu-k6N">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LandscapeBlur" translatesAutoresizingMaskIntoConstraints="NO" id="axZ-Xu-k6N">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view clipsSubviews="YES" alpha="0.34999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h07-SP-glr">
@@ -390,7 +390,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Landscape" width="1920" height="1084"/>
+        <image name="LandscapeBlur" width="1920" height="1084"/>
         <image name="back" width="240" height="150"/>
     </resources>
 </document>
