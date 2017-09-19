@@ -68,7 +68,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l36-WO-0Zj" customClass="CustomButton" customModule="random" customModuleProvider="target">
+                            <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l36-WO-0Zj" customClass="GenerateButton" customModule="random" customModuleProvider="target">
                                 <rect key="frame" x="92.5" y="485" width="190" height="60"/>
                                 <color key="backgroundColor" red="0.1898566753" green="0.3807748011" blue="0.68071139489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
