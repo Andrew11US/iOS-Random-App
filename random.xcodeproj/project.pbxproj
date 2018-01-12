@@ -28,6 +28,8 @@
 		90A3CFDF1EADE340008D50BF /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CFDB1EADE340008D50BF /* Ubuntu-Medium.ttf */; };
 		90A3CFE01EADE340008D50BF /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CFDC1EADE340008D50BF /* Ubuntu-Regular.ttf */; };
 		90A436631E7C7F770057ECF5 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A436621E7C7F770057ECF5 /* RoundedView.swift */; };
+		90DEBFA92009340200849D06 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEBFA82009340200849D06 /* MenuVC.swift */; };
+		90DEBFAC2009364100849D06 /* Hiragino W8.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 90DEBFAB2009364000849D06 /* Hiragino W8.ttc */; };
 		90EBABE71EDD8FD10088C772 /* randomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EBABE61EDD8FD10088C772 /* randomUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,8 @@
 		90A3CFDB1EADE340008D50BF /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
 		90A3CFDC1EADE340008D50BF /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		90A436621E7C7F770057ECF5 /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		90DEBFA82009340200849D06 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		90DEBFAB2009364000849D06 /* Hiragino W8.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hiragino W8.ttc"; sourceTree = "<group>"; };
 		90EBABE41EDD8FD10088C772 /* randomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = randomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EBABE61EDD8FD10088C772 /* randomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomUITests.swift; sourceTree = "<group>"; };
 		90EBABE81EDD8FD10088C772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 				90A3CFDA1EADE340008D50BF /* Ubuntu-Light.ttf */,
 				90A3CFDB1EADE340008D50BF /* Ubuntu-Medium.ttf */,
 				90A3CFDC1EADE340008D50BF /* Ubuntu-Regular.ttf */,
+				90DEBFAB2009364000849D06 /* Hiragino W8.ttc */,
 				900A311A1E5E245800D38D6C /* random-Bridging-Header.h */,
 				9019BE691E3BB48400DDAE1D /* AppDelegate.swift */,
 				9019BE751E3BB48400DDAE1D /* Info.plist */,
@@ -131,6 +136,7 @@
 			children = (
 				9019BE6B1E3BB48400DDAE1D /* RandomVC.swift */,
 				900A31201E5E2BD000D38D6C /* SetValueVC.swift */,
+				90DEBFA82009340200849D06 /* MenuVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -264,7 +270,7 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = PTRW36GG78;
 						LastSwiftMigration = 0910;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					90EBABE31EDD8FD10088C772 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -302,6 +308,7 @@
 				90A3CFE01EADE340008D50BF /* Ubuntu-Regular.ttf in Resources */,
 				90A3CFDD1EADE340008D50BF /* Ubuntu-Bold.ttf in Resources */,
 				9019BE741E3BB48400DDAE1D /* LaunchScreen.storyboard in Resources */,
+				90DEBFAC2009364100849D06 /* Hiragino W8.ttc in Resources */,
 				90A3CFDF1EADE340008D50BF /* Ubuntu-Medium.ttf in Resources */,
 				9019BE711E3BB48400DDAE1D /* Assets.xcassets in Resources */,
 				9019BE6F1E3BB48400DDAE1D /* Main.storyboard in Resources */,
@@ -378,6 +385,7 @@
 				906A37A51E60530500FA0AB4 /* IntExtension.swift in Sources */,
 				9019BE6A1E3BB48400DDAE1D /* AppDelegate.swift in Sources */,
 				900A31271E5E341600D38D6C /* CustomTextField.swift in Sources */,
+				90DEBFA92009340200849D06 /* MenuVC.swift in Sources */,
 				900A31211E5E2BD000D38D6C /* SetValueVC.swift in Sources */,
 				9001DEBF1E5F79F2009CEE29 /* GlobalData.swift in Sources */,
 				9019BE7E1E3BC63C00DDAE1D /* BackgroundImage.swift in Sources */,
@@ -537,14 +545,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = random/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.random;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "e69ee28f-d420-4e03-a3be-b2e8e85b7f44";
+				PROVISIONING_PROFILE_SPECIFIER = RandomDevProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "random/random-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -558,15 +567,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = random/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.random;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "47cc6e70-bcec-40dd-b583-f5c53c3016d5";
+				PROVISIONING_PROFILE_SPECIFIER = RandomDistributionProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "random/random-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

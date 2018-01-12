@@ -10,7 +10,7 @@
 
 import UIKit
 
-class RandomVC: UIViewController {
+class NumbersVC: UIViewController {
 
     @IBOutlet weak var genLbl: UILabel!
     @IBOutlet weak var genBtn: CustomButton!
@@ -20,7 +20,12 @@ class RandomVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.setNeedsStatusBarAppearanceUpdate()
         
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     
     override func viewDidAppear(_ animated: Bool) {
