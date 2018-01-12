@@ -45,7 +45,7 @@ class SetValueVC: UIViewController, UITextFieldDelegate {
         
     }
     
-    @IBAction func backBtnPressed(_ sender: UIButton) {
+    @IBAction func doneBtnPressed(_ sender: UIButton) {
         
         dismiss(animated: true, completion: nil)
     }

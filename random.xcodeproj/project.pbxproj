@@ -14,7 +14,7 @@
 		900A31211E5E2BD000D38D6C /* SetValueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A31201E5E2BD000D38D6C /* SetValueVC.swift */; };
 		900A31271E5E341600D38D6C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900A31261E5E341600D38D6C /* CustomTextField.swift */; };
 		9019BE6A1E3BB48400DDAE1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE691E3BB48400DDAE1D /* AppDelegate.swift */; };
-		9019BE6C1E3BB48400DDAE1D /* RandomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE6B1E3BB48400DDAE1D /* RandomVC.swift */; };
+		9019BE6C1E3BB48400DDAE1D /* NumbersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE6B1E3BB48400DDAE1D /* NumbersVC.swift */; };
 		9019BE6F1E3BB48400DDAE1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9019BE6D1E3BB48400DDAE1D /* Main.storyboard */; };
 		9019BE711E3BB48400DDAE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9019BE701E3BB48400DDAE1D /* Assets.xcassets */; };
 		9019BE741E3BB48400DDAE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9019BE721E3BB48400DDAE1D /* LaunchScreen.storyboard */; };
@@ -28,6 +28,11 @@
 		90A3CFDF1EADE340008D50BF /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CFDB1EADE340008D50BF /* Ubuntu-Medium.ttf */; };
 		90A3CFE01EADE340008D50BF /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CFDC1EADE340008D50BF /* Ubuntu-Regular.ttf */; };
 		90A436631E7C7F770057ECF5 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A436621E7C7F770057ECF5 /* RoundedView.swift */; };
+		90BEAC2220096B3F00439ACA /* ListsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAC2120096B3F00439ACA /* ListsVC.swift */; };
+		90BEAC2420096B7600439ACA /* FlipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAC2320096B7600439ACA /* FlipVC.swift */; };
+		90BEAC2620096B8C00439ACA /* AddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAC2520096B8C00439ACA /* AddItemVC.swift */; };
+		90BEAC2820096BD100439ACA /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAC2720096BD100439ACA /* SettingsVC.swift */; };
+		90BEAC2A200979F800439ACA /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEAC29200979F800439ACA /* CustomLabel.swift */; };
 		90DEBFA92009340200849D06 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DEBFA82009340200849D06 /* MenuVC.swift */; };
 		90DEBFAC2009364100849D06 /* Hiragino W8.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 90DEBFAB2009364000849D06 /* Hiragino W8.ttc */; };
 		90EBABE71EDD8FD10088C772 /* randomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EBABE61EDD8FD10088C772 /* randomUITests.swift */; };
@@ -53,7 +58,7 @@
 		900A31261E5E341600D38D6C /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		9019BE661E3BB48400DDAE1D /* random.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = random.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9019BE691E3BB48400DDAE1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9019BE6B1E3BB48400DDAE1D /* RandomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomVC.swift; sourceTree = "<group>"; };
+		9019BE6B1E3BB48400DDAE1D /* NumbersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersVC.swift; sourceTree = "<group>"; };
 		9019BE6E1E3BB48400DDAE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9019BE701E3BB48400DDAE1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9019BE731E3BB48400DDAE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,6 +73,11 @@
 		90A3CFDB1EADE340008D50BF /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
 		90A3CFDC1EADE340008D50BF /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		90A436621E7C7F770057ECF5 /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		90BEAC2120096B3F00439ACA /* ListsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsVC.swift; sourceTree = "<group>"; };
+		90BEAC2320096B7600439ACA /* FlipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipVC.swift; sourceTree = "<group>"; };
+		90BEAC2520096B8C00439ACA /* AddItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemVC.swift; sourceTree = "<group>"; };
+		90BEAC2720096BD100439ACA /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		90BEAC29200979F800439ACA /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		90DEBFA82009340200849D06 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		90DEBFAB2009364000849D06 /* Hiragino W8.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hiragino W8.ttc"; sourceTree = "<group>"; };
 		90EBABE41EDD8FD10088C772 /* randomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = randomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,9 +144,13 @@
 		900A31241E5E2F7300D38D6C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9019BE6B1E3BB48400DDAE1D /* RandomVC.swift */,
+				9019BE6B1E3BB48400DDAE1D /* NumbersVC.swift */,
 				900A31201E5E2BD000D38D6C /* SetValueVC.swift */,
 				90DEBFA82009340200849D06 /* MenuVC.swift */,
+				90BEAC2120096B3F00439ACA /* ListsVC.swift */,
+				90BEAC2320096B7600439ACA /* FlipVC.swift */,
+				90BEAC2520096B8C00439ACA /* AddItemVC.swift */,
+				90BEAC2720096BD100439ACA /* SettingsVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -151,6 +165,7 @@
 				9019BE7B1E3BB71300DDAE1D /* RoundedButton.swift */,
 				90A436621E7C7F770057ECF5 /* RoundedView.swift */,
 				90008E341F716E5D0039810E /* GenerateButton.swift */,
+				90BEAC29200979F800439ACA /* CustomLabel.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -379,19 +394,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9019BE6C1E3BB48400DDAE1D /* RandomVC.swift in Sources */,
+				90BEAC2820096BD100439ACA /* SettingsVC.swift in Sources */,
+				90BEAC2A200979F800439ACA /* CustomLabel.swift in Sources */,
+				9019BE6C1E3BB48400DDAE1D /* NumbersVC.swift in Sources */,
 				9019BE7C1E3BB71300DDAE1D /* RoundedButton.swift in Sources */,
 				900A311F1E5E24D800D38D6C /* CustomButton.swift in Sources */,
 				906A37A51E60530500FA0AB4 /* IntExtension.swift in Sources */,
+				90BEAC2220096B3F00439ACA /* ListsVC.swift in Sources */,
 				9019BE6A1E3BB48400DDAE1D /* AppDelegate.swift in Sources */,
 				900A31271E5E341600D38D6C /* CustomTextField.swift in Sources */,
 				90DEBFA92009340200849D06 /* MenuVC.swift in Sources */,
 				900A31211E5E2BD000D38D6C /* SetValueVC.swift in Sources */,
 				9001DEBF1E5F79F2009CEE29 /* GlobalData.swift in Sources */,
 				9019BE7E1E3BC63C00DDAE1D /* BackgroundImage.swift in Sources */,
+				90BEAC2620096B8C00439ACA /* AddItemVC.swift in Sources */,
 				90A436631E7C7F770057ECF5 /* RoundedView.swift in Sources */,
 				90008E351F716E5D0039810E /* GenerateButton.swift in Sources */,
 				9019BE801E3BE8A900DDAE1D /* Material Design.swift in Sources */,
+				90BEAC2420096B7600439ACA /* FlipVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
