@@ -20,7 +20,6 @@
 		9019BE741E3BB48400DDAE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9019BE721E3BB48400DDAE1D /* LaunchScreen.storyboard */; };
 		9019BE7C1E3BB71300DDAE1D /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE7B1E3BB71300DDAE1D /* RoundedButton.swift */; };
 		9019BE7E1E3BC63C00DDAE1D /* BackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE7D1E3BC63C00DDAE1D /* BackgroundImage.swift */; };
-		9019BE801E3BE8A900DDAE1D /* Material Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */; };
 		906A37A51E60530500FA0AB4 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A37A41E60530500FA0AB4 /* IntExtension.swift */; };
 		906A37A71E60641E00FA0AB4 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 906A37A61E60641E00FA0AB4 /* Lato-Bold.ttf */; };
 		90A3CFDD1EADE340008D50BF /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A3CFD91EADE340008D50BF /* Ubuntu-Bold.ttf */; };
@@ -65,7 +64,6 @@
 		9019BE751E3BB48400DDAE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9019BE7B1E3BB71300DDAE1D /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		9019BE7D1E3BC63C00DDAE1D /* BackgroundImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundImage.swift; path = ../BackgroundImage.swift; sourceTree = "<group>"; };
-		9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material Design.swift"; sourceTree = "<group>"; };
 		906A37A41E60530500FA0AB4 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		906A37A61E60641E00FA0AB4 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		90A3CFD91EADE340008D50BF /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
@@ -158,7 +156,6 @@
 		900A31251E5E2F7D00D38D6C /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				9019BE7F1E3BE8A900DDAE1D /* Material Design.swift */,
 				9019BE7D1E3BC63C00DDAE1D /* BackgroundImage.swift */,
 				900A31261E5E341600D38D6C /* CustomTextField.swift */,
 				900A311E1E5E24D800D38D6C /* CustomButton.swift */,
@@ -410,7 +407,6 @@
 				90BEAC2620096B8C00439ACA /* AddItemVC.swift in Sources */,
 				90A436631E7C7F770057ECF5 /* RoundedView.swift in Sources */,
 				90008E351F716E5D0039810E /* GenerateButton.swift in Sources */,
-				9019BE801E3BE8A900DDAE1D /* Material Design.swift in Sources */,
 				90BEAC2420096B7600439ACA /* FlipVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

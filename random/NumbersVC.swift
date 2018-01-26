@@ -9,6 +9,7 @@
 //-> AppleWatch app
 
 import UIKit
+import AudioToolbox
 
 class NumbersVC: UIViewController {
 
@@ -55,7 +56,8 @@ class NumbersVC: UIViewController {
         
         genLbl.text = String(randomNumber)
         slider.value = Float(randomNumber)
-
+        
+        generateFeedback()
     }
 
     @IBAction func eraseBtnPressed(_ sender: CustomButton) {
@@ -72,6 +74,12 @@ class NumbersVC: UIViewController {
     }
     
     @IBAction func setValueBtnPressed(_ sender: UIButton) {
+    }
+    
+    func generateFeedback() {
+        let generator = UIImpactFeedbackGenerator(style: .light)
+        generator.prepare()
+        generator.impactOccurred()
     }
   
 }
