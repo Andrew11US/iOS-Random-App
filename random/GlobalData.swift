@@ -20,4 +20,4 @@ var value1 = 0
 var value2 = 99
 
 
-var itemArray = ["apple", "orange", "pinapple"]
+var itemArray = [String]()

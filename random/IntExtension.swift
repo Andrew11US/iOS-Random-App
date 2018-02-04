@@ -20,7 +20,7 @@ extension Int
         }
         
         let mini = UInt32(range.lowerBound + offset)
-        let maxi = UInt32(range.upperBound   + offset)
+        let maxi = UInt32(range.upperBound + offset)
         
         return Int(mini + arc4random_uniform(maxi - mini)) - offset
     }

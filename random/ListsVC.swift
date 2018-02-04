@@ -11,13 +11,19 @@ import UIKit
 class ListsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var selectedLbl: CustomLabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.tableView.delegate = self
         self.tableView.dataSource = self
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
+        tableView.reloadData()
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -51,6 +57,21 @@ class ListsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         } else {
             return ItemCell()
         }
+    }
+    
+    @IBAction func generateTapped(_ sender: CustomButton) {
+        
+        let randomNumber: Int
+        
+        if itemArray.count != 0 {
+            randomNumber = Int.random(range: 0..<(itemArray.count))
+            selectedLbl.isHidden = false
+            selectedLbl.text = itemArray[randomNumber]
+            generateFeedback()
+        } else {
+            selectedLbl.isHidden = true
+        }
+        
     }
     
     func generateFeedback() {
