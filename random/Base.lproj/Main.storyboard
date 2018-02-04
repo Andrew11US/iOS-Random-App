@@ -28,11 +28,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Numbers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vFh-DU-qnq">
-                                <rect key="frame" x="26" y="60" width="193.5" height="44"/>
+                                <rect key="frame" x="26" y="60" width="172" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="I6e-yh-dnu"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="32"/>
                                 <color key="textColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -101,7 +101,7 @@
                                         <variation key="heightClass=regular-widthClass=regular" constant="60"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="16"/>
                                 <state key="normal" title="Customize">
                                     <color key="titleColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -192,7 +192,7 @@
                                         <variation key="heightClass=regular-widthClass=regular" constant="60"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="16"/>
                                 <state key="normal" title="Add item">
                                     <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -206,11 +206,11 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lists" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZBw-2b-zQx">
-                                <rect key="frame" x="26" y="60" width="100.5" height="44"/>
+                                <rect key="frame" x="26" y="60" width="89.5" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="gth-NT-Tmw"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="32"/>
                                 <color key="textColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -348,11 +348,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add item" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SOs-eI-uDs">
-                                <rect key="frame" x="26" y="50" width="191.5" height="44"/>
+                                <rect key="frame" x="26" y="50" width="170.5" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="sRs-EY-EQe"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="32"/>
                                 <color key="textColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -377,7 +377,7 @@
                                         <variation key="heightClass=regular-widthClass=regular" constant="60"/>
                                     </constraint>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="16"/>
                                 <state key="normal" title="Add item">
                                     <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -480,11 +480,11 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flip Coin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="yjg-xs-heg">
-                                <rect key="frame" x="26" y="60" width="181.5" height="44"/>
+                                <rect key="frame" x="26" y="60" width="161.5" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="2NZ-Sd-9RX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="32"/>
                                 <color key="textColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -530,11 +530,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="B5c-Km-Nsf">
-                                <rect key="frame" x="26" y="60" width="175" height="44"/>
+                                <rect key="frame" x="26" y="60" width="155.5" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="hae-jo-CGY"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="32"/>
                                 <color key="textColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -593,7 +593,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="OVH-Fj-KuB"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="38"/>
+                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="36"/>
                                 <color key="textColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -662,7 +662,7 @@
                                     <constraint firstAttribute="width" constant="180" id="lK1-bP-XFN"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWA-hj-TD1" customClass="CustomButton" customModule="random" customModuleProvider="target">
+                            <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWA-hj-TD1" customClass="CustomButton" customModule="random" customModuleProvider="target">
                                 <rect key="frame" x="26" y="587" width="180" height="50"/>
                                 <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -715,11 +715,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customize" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AiX-fU-DLM">
-                                <rect key="frame" x="26" y="60" width="220" height="44"/>
+                                <rect key="frame" x="26" y="60" width="196" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="uOu-Ir-kzS"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="36"/>
+                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="32"/>
                                 <color key="textColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -824,7 +824,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="5Xt-M7-yhQ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="16"/>
                                 <state key="normal" title="Done">
                                     <color key="titleColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -881,6 +881,6 @@
         <image name="Logo" width="90" height="90"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Qnj-5y-EzC"/>
+        <segue reference="05K-Cc-6g3"/>
     </inferredMetricsTieBreakers>
 </document>
