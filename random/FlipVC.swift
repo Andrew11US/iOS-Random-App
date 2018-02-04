@@ -10,17 +10,23 @@ import UIKit
 
 class FlipVC: UIViewController {
 
+    @IBOutlet weak var coinImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func generateTapped(_ sender: CustomButton) {
+        
+        let randomNumber: Int
+        randomNumber = Int.random(range: 0..<2)
+        coinImage.image = UIImage(named: String(randomNumber))
+        
+        generateFeedback()
+        
     }
-    
 
     func generateFeedback() {
         let generator = UIImpactFeedbackGenerator(style: .light)
