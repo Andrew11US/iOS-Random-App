@@ -8,22 +8,45 @@
 
 import UIKit
 
-class ListsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ListsVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var selectedLbl: CustomLabel!
+    @IBOutlet weak var addItemTextField: CustomTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        self.addItemTextField.delegate = self
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         tableView.reloadData()
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        
+        if addItemTextField.text == nil || addItemTextField.text == "" || addItemTextField.text == " " {
+            
+            print(itemArray)
+            
+        } else {
+            itemArray.append(addItemTextField.text!)
+            tableView.reloadData()
+            print(itemArray)
+        }
+        
+        addItemTextField.text = nil
+        return true
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {

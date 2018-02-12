@@ -184,27 +184,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bza-2F-7Ui" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
-                                <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="f6H-xC-hLZ">
-                                        <variation key="heightClass=regular-widthClass=regular" constant="60"/>
-                                    </constraint>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="16"/>
-                                <state key="normal" title="Add item">
-                                    <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="0.0"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="GOG-Ad-2SE" kind="show" id="4AE-e6-67W"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lists" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZBw-2b-zQx">
                                 <rect key="frame" x="26" y="60" width="89.5" height="44"/>
                                 <constraints>
@@ -250,8 +229,8 @@
                                     <action selector="generateTapped:" destination="Rig-1r-X8P" eventType="touchUpInside" id="tRI-3d-8Xy"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vQb-j4-kKE">
-                                <rect key="frame" x="46" y="124" width="283" height="343"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vQb-j4-kKE">
+                                <rect key="frame" x="46" y="167" width="283" height="300"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ItemCell" rowHeight="50" id="cUY-jP-Qdz" customClass="ItemCell" customModule="random" customModuleProvider="target">
@@ -304,29 +283,52 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="10" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Zlj-vY-Gee" customClass="CustomTextField" customModule="random" customModuleProvider="target">
+                                <rect key="frame" x="46" y="114" width="283" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="VpN-7G-frz">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                </constraints>
+                                <color key="textColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="yes" spellCheckingType="yes" keyboardAppearance="alert" returnKeyType="done" enablesReturnKeyAutomatically="YES" smartQuotesType="yes"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ZBw-2b-zQx" secondAttribute="trailingMargin" id="3Tz-pK-HO4"/>
-                            <constraint firstItem="Bza-2F-7Ui" firstAttribute="leading" secondItem="6pA-jY-G4B" secondAttribute="leading" id="J8q-TC-Fia"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zlj-vY-Gee" secondAttribute="trailing" constant="30" id="8SC-Mp-CbN"/>
+                            <constraint firstItem="vQb-j4-kKE" firstAttribute="top" secondItem="Zlj-vY-Gee" secondAttribute="bottom" constant="8" id="COk-iz-ex5"/>
                             <constraint firstItem="kGY-au-DJ4" firstAttribute="centerX" secondItem="zzE-ce-Apu" secondAttribute="centerX" id="Kqs-DY-22q"/>
                             <constraint firstItem="ZBw-2b-zQx" firstAttribute="top" secondItem="brQ-xR-1gP" secondAttribute="bottom" constant="40" id="Lv5-Sf-jXv"/>
-                            <constraint firstItem="Bza-2F-7Ui" firstAttribute="top" secondItem="kGY-au-DJ4" secondAttribute="bottom" constant="10" id="Och-Ma-qJV"/>
                             <constraint firstItem="ZBw-2b-zQx" firstAttribute="leading" secondItem="6pA-jY-G4B" secondAttribute="leadingMargin" constant="10" id="V7O-RB-SKc"/>
                             <constraint firstItem="vQb-j4-kKE" firstAttribute="leading" secondItem="6pA-jY-G4B" secondAttribute="leadingMargin" constant="30" id="XQ3-yf-nfR"/>
                             <constraint firstItem="zzE-ce-Apu" firstAttribute="width" secondItem="vQb-j4-kKE" secondAttribute="width" id="cDE-qE-Pic"/>
-                            <constraint firstAttribute="trailing" secondItem="Bza-2F-7Ui" secondAttribute="trailing" id="cP1-DP-6GQ"/>
+                            <constraint firstItem="Zlj-vY-Gee" firstAttribute="top" secondItem="ZBw-2b-zQx" secondAttribute="bottom" constant="10" id="fiE-Xv-1KT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vQb-j4-kKE" secondAttribute="trailing" constant="30" id="h76-mY-Sle"/>
-                            <constraint firstItem="pEU-3q-Rpd" firstAttribute="top" secondItem="Bza-2F-7Ui" secondAttribute="bottom" id="hVf-dv-Wwd"/>
                             <constraint firstItem="zzE-ce-Apu" firstAttribute="top" secondItem="vQb-j4-kKE" secondAttribute="bottom" constant="20" id="jFi-Sd-jcR"/>
                             <constraint firstItem="kGY-au-DJ4" firstAttribute="top" secondItem="zzE-ce-Apu" secondAttribute="bottom" constant="20" id="jc9-SL-kXk"/>
                             <constraint firstItem="kGY-au-DJ4" firstAttribute="centerX" secondItem="6pA-jY-G4B" secondAttribute="centerX" id="kGe-Ox-7zj"/>
-                            <constraint firstItem="vQb-j4-kKE" firstAttribute="top" secondItem="ZBw-2b-zQx" secondAttribute="bottom" constant="20" id="lA9-re-5ph"/>
+                            <constraint firstItem="Zlj-vY-Gee" firstAttribute="leading" secondItem="6pA-jY-G4B" secondAttribute="leadingMargin" constant="30" id="kIm-Em-25h"/>
                             <constraint firstItem="LNh-Z3-fsh" firstAttribute="centerY" secondItem="ZBw-2b-zQx" secondAttribute="centerY" id="mWa-Wp-3fb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LNh-Z3-fsh" secondAttribute="trailing" constant="15" id="oSq-To-gpU"/>
+                            <constraint firstItem="pEU-3q-Rpd" firstAttribute="top" secondItem="kGY-au-DJ4" secondAttribute="bottom" constant="50" id="w07-bL-8rP"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="addItemTextField" destination="Zlj-vY-Gee" id="nP1-3v-clD"/>
                         <outlet property="selectedLbl" destination="zzE-ce-Apu" id="zi0-zI-l2f"/>
                         <outlet property="tableView" destination="vQb-j4-kKE" id="lZQ-PT-I9c"/>
                     </connections>
@@ -334,102 +336,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FY6-7K-dbM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1072.8" y="926.08695652173924"/>
-        </scene>
-        <!--Add ItemVC-->
-        <scene sceneID="5Pn-3m-GgT">
-            <objects>
-                <viewController id="GOG-Ad-2SE" customClass="AddItemVC" customModule="random" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ytI-qy-t60"/>
-                        <viewControllerLayoutGuide type="bottom" id="Ym2-yC-LqE"/>
-                    </layoutGuides>
-                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="0SR-S4-afv">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add item" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="SOs-eI-uDs">
-                                <rect key="frame" x="26" y="50" width="170.5" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="sRs-EY-EQe"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="32"/>
-                                <color key="textColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLq-XP-CAw" userLabel="Menu" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                <rect key="frame" x="320" y="60" width="24" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="24" id="K0f-2u-knK"/>
-                                    <constraint firstAttribute="height" constant="24" id="wqH-gh-KAJ"/>
-                                </constraints>
-                                <state key="normal" image="Logo"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="0.0"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ieY-7R-7QH" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
-                                <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="TWr-cd-9Fn">
-                                        <variation key="heightClass=regular-widthClass=regular" constant="60"/>
-                                    </constraint>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="16"/>
-                                <state key="normal" title="Add item">
-                                    <color key="titleColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="0.0"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="addBtnPressed:" destination="GOG-Ad-2SE" eventType="touchUpInside" id="N9O-ry-bdG"/>
-                                </connections>
-                            </button>
-                            <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="20" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Zlj-vY-Gee" customClass="CustomTextField" customModule="random" customModuleProvider="target">
-                                <rect key="frame" x="66" y="134" width="243" height="50"/>
-                                <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="VpN-7G-frz">
-                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
-                                    </constraint>
-                                </constraints>
-                                <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="yes" spellCheckingType="yes" keyboardAppearance="alert" returnKeyType="done" enablesReturnKeyAutomatically="YES" smartQuotesType="yes"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="3"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="YLq-XP-CAw" firstAttribute="top" secondItem="ytI-qy-t60" secondAttribute="bottom" constant="40" id="82y-KX-ySc"/>
-                            <constraint firstAttribute="trailing" secondItem="ieY-7R-7QH" secondAttribute="trailing" id="EE0-R9-Qru"/>
-                            <constraint firstItem="SOs-eI-uDs" firstAttribute="leading" secondItem="0SR-S4-afv" secondAttribute="leadingMargin" constant="10" id="Ejc-US-eLq"/>
-                            <constraint firstItem="Zlj-vY-Gee" firstAttribute="leading" secondItem="0SR-S4-afv" secondAttribute="leadingMargin" constant="50" id="IRH-1f-gW5"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Zlj-vY-Gee" secondAttribute="trailing" constant="50" id="Zlh-aS-L3K"/>
-                            <constraint firstItem="ieY-7R-7QH" firstAttribute="leading" secondItem="0SR-S4-afv" secondAttribute="leading" id="dzr-qn-J97"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SOs-eI-uDs" secondAttribute="trailingMargin" id="h8h-Ae-Nwr"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="YLq-XP-CAw" secondAttribute="trailing" constant="15" id="nVo-tO-2VI"/>
-                            <constraint firstItem="YLq-XP-CAw" firstAttribute="centerY" secondItem="SOs-eI-uDs" secondAttribute="centerY" id="okA-ax-6GJ"/>
-                            <constraint firstItem="Ym2-yC-LqE" firstAttribute="top" secondItem="ieY-7R-7QH" secondAttribute="bottom" id="raZ-JY-zui"/>
-                            <constraint firstItem="Zlj-vY-Gee" firstAttribute="top" secondItem="SOs-eI-uDs" secondAttribute="bottom" constant="40" id="vHA-Hx-cLU"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="addItemTextField" destination="Zlj-vY-Gee" id="KHK-rP-ptY"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vNF-bb-LtJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2000" y="927"/>
         </scene>
         <!--FlipVC-->
         <scene sceneID="Sxy-D1-z36">
@@ -489,7 +395,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gt8-9Z-tuI">
-                                <rect key="frame" x="112" y="154" width="150" height="150"/>
+                                <rect key="frame" x="112.5" y="154" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="4mq-Dq-QM4"/>
                                     <constraint firstAttribute="width" constant="150" id="SqT-lx-99P"/>
@@ -881,6 +787,6 @@
         <image name="Logo" width="90" height="90"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Qnj-5y-EzC"/>
+        <segue reference="05K-Cc-6g3"/>
     </inferredMetricsTieBreakers>
 </document>
