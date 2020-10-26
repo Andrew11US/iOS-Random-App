@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kzB-EZ-tCg">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
@@ -23,17 +23,17 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="hhV-tN-TNO">
-                                <rect key="frame" x="30" y="101" width="260" height="437"/>
+                                <rect key="frame" x="30" y="150" width="315" height="598"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="OG4-5r-hTT">
-                                        <rect key="frame" x="0.0" y="0.0" width="260" height="437"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="598"/>
                                         <subviews>
                                             <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bb7-3U-txV" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="260" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="83S-0h-31Z">
                                                         <variation key="heightClass=regular-widthClass=regular" constant="60"/>
@@ -48,18 +48,24 @@
                                                         <real key="value" value="5"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
+                                                </variation>
                                                 <connections>
                                                     <segue destination="EDt-VL-sPx" kind="show" id="A4D-d0-deY"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="75B-bt-ZVO">
-                                                <rect key="frame" x="0.0" y="50" width="260" height="236"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="75B-bt-ZVO">
+                                                <rect key="frame" x="0.0" y="50" width="315" height="394"/>
                                                 <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="100"/>
                                                 <nil key="highlightedColor"/>
                                                 <size key="shadowOffset" width="0.0" height="0.0"/>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="200"/>
+                                                </variation>
                                             </label>
                                             <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ju4-HO-G3C" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="296" width="260" height="60"/>
+                                                <rect key="frame" x="0.0" y="454" width="315" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="Mh7-uJ-UrZ"/>
                                                 </constraints>
@@ -77,11 +83,11 @@
                                                 </connections>
                                             </button>
                                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KCg-3I-ZOA">
-                                                <rect key="frame" x="0.0" y="366" width="260" height="1"/>
+                                                <rect key="frame" x="0.0" y="524" width="315" height="4"/>
                                                 <color key="progressTintColor" red="0.96583396200000005" green="0.80607110260000003" blue="0.046044588089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </progressView>
                                             <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l36-WO-0Zj" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="377" width="260" height="60"/>
+                                                <rect key="frame" x="0.0" y="538" width="315" height="60"/>
                                                 <color key="backgroundColor" red="0.96862745098039216" green="0.80000000000000004" blue="0.047058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="gTn-wt-kMs"/>
@@ -133,14 +139,14 @@
                         <viewControllerLayoutGuide type="bottom" id="pEU-3q-Rpd"/>
                     </layoutGuides>
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="6pA-jY-G4B">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gFg-Xn-h06">
-                                <rect key="frame" x="46" y="101" width="228" height="437"/>
+                                <rect key="frame" x="46" y="150" width="283" height="598"/>
                                 <subviews>
                                     <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Add Item" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="10" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Zlj-vY-Gee" customClass="CustomTextField" customModule="random" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="228" height="45"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="283" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="VpN-7G-frz">
                                                 <variation key="heightClass=regular-widthClass=regular" constant="80"/>
@@ -161,18 +167,18 @@
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vQb-j4-kKE">
-                                        <rect key="frame" x="0.0" y="61" width="228" height="300"/>
+                                        <rect key="frame" x="0.0" y="61" width="283" height="461"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ItemCell" rowHeight="50" id="cUY-jP-Qdz" customClass="ItemCell" customModule="random" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="228" height="50"/>
+                                                <rect key="frame" x="0.0" y="28" width="283" height="50"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cUY-jP-Qdz" id="eBf-ls-Tg2">
-                                                    <rect key="frame" x="0.0" y="0.0" width="228" height="50"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="283" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QgU-0t-d1S" customClass="CustomLabel" customModule="random" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="2" width="228" height="46"/>
+                                                            <rect key="frame" x="0.0" y="2" width="283" height="46"/>
                                                             <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="18"/>
                                                             <nil key="highlightedColor"/>
                                                             <userDefinedRuntimeAttributes>
@@ -198,7 +204,7 @@
                                         </prototypes>
                                     </tableView>
                                     <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zzE-ce-Apu" customClass="CustomLabel" customModule="random" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="369" width="228" height="50"/>
+                                        <rect key="frame" x="0.0" y="530" width="283" height="50"/>
                                         <color key="backgroundColor" red="0.058823529411764705" green="0.74901960784313726" blue="0.62745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="lfh-M3-yb9"/>
@@ -213,7 +219,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGY-au-DJ4" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="377" width="228" height="60"/>
+                                        <rect key="frame" x="0.0" y="538" width="283" height="60"/>
                                         <color key="backgroundColor" red="0.96862745100000003" green="0.80000000000000004" blue="0.047058823530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="k5n-jt-e0U"/>
@@ -262,21 +268,21 @@
                         <viewControllerLayoutGuide type="bottom" id="XQI-q0-lFW"/>
                     </layoutGuides>
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="ypD-Bb-z7X">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="eHe-tu-JkR">
-                                <rect key="frame" x="46" y="121" width="228" height="417"/>
+                                <rect key="frame" x="46" y="170" width="283" height="578"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gt8-9Z-tuI">
-                                        <rect key="frame" x="39" y="0.0" width="150" height="150"/>
+                                        <rect key="frame" x="66.666666666666686" y="0.0" width="150" height="150"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="150" id="4mq-Dq-QM4"/>
                                             <constraint firstAttribute="width" constant="150" id="SqT-lx-99P"/>
                                         </constraints>
                                     </imageView>
                                     <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edD-Pa-vvo" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                        <rect key="frame" x="24" y="357" width="180" height="60"/>
+                                        <rect key="frame" x="51.666666666666686" y="518" width="180" height="60"/>
                                         <color key="backgroundColor" red="0.96862745100000003" green="0.80000000000000004" blue="0.047058823530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="cZS-uD-6bo"/>
@@ -324,14 +330,14 @@
                         <viewControllerLayoutGuide type="bottom" id="D4z-G4-ST1"/>
                     </layoutGuides>
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="XfM-0T-M72">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="P4Q-U0-YUB">
-                                <rect key="frame" x="30" y="191" width="260" height="277"/>
+                                <rect key="frame" x="30" y="240" width="315" height="438"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuY-Hu-hVC" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="260" height="59"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="112.66666666666667"/>
                                         <color key="backgroundColor" red="0.96862745098039216" green="0.80000000000000004" blue="0.047058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="18"/>
                                         <state key="normal" title="NUMBERS">
@@ -347,7 +353,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tal-6w-mTl" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="109" width="260" height="59"/>
+                                        <rect key="frame" x="0.0" y="162.66666666666669" width="315" height="112.66666666666669"/>
                                         <color key="backgroundColor" red="0.96862745100000003" green="0.80000000000000004" blue="0.047058823530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="18"/>
                                         <state key="normal" title="LISTS">
@@ -363,7 +369,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJm-18-qcf" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="218" width="260" height="59"/>
+                                        <rect key="frame" x="0.0" y="325.33333333333337" width="315" height="112.66666666666669"/>
                                         <color key="backgroundColor" red="0.96862745100000003" green="0.80000000000000004" blue="0.047058823530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="18"/>
                                         <state key="normal" title="FLIP COIN">
@@ -404,20 +410,22 @@
                         <viewControllerLayoutGuide type="bottom" id="ytf-jW-ad0"/>
                     </layoutGuides>
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="Yzb-zF-I9q">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="WSR-Bq-MiS">
-                                <rect key="frame" x="16" y="121" width="288" height="120"/>
+                                <rect key="frame" x="16" y="170" width="343" height="120"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="eyw-sR-iHS">
-                                        <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1j-F1-Szf" customClass="CustomLabel" customModule="random" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
                                                 <color key="backgroundColor" red="0.96862745098039216" green="0.80000000000000004" blue="0.047058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="6eu-gc-Ac1"/>
+                                                    <constraint firstAttribute="height" constant="50" id="6eu-gc-Ac1">
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                                                    </constraint>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="9EZ-xo-bQV"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="20"/>
@@ -430,7 +438,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="20" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="qAb-dW-fXw" customClass="CustomTextField" customModule="random" customModuleProvider="target">
-                                                <rect key="frame" x="120" y="0.0" width="168" height="50"/>
+                                                <rect key="frame" x="120" y="0.0" width="223" height="50"/>
                                                 <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="textColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="20"/>
@@ -447,7 +455,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2yS-6D-XzV">
-                                        <rect key="frame" x="0.0" y="70" width="288" height="50"/>
+                                        <rect key="frame" x="0.0" y="70" width="343" height="50"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v7U-d3-d7O" customClass="CustomLabel" customModule="random" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
@@ -465,7 +473,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </label>
                                             <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="99" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="20" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="y3t-fw-W18" customClass="CustomTextField" customModule="random" customModuleProvider="target">
-                                                <rect key="frame" x="120" y="0.0" width="168" height="50"/>
+                                                <rect key="frame" x="120" y="0.0" width="223" height="50"/>
                                                 <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="textColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="20"/>
@@ -484,10 +492,12 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGN-pr-x6Q" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="528" width="320" height="40"/>
+                                <rect key="frame" x="0.0" y="738" width="375" height="40"/>
                                 <color key="backgroundColor" red="0.96583396200000005" green="0.80607110260000003" blue="0.046044588089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="5Xt-M7-yhQ"/>
+                                    <constraint firstAttribute="height" constant="40" id="5Xt-M7-yhQ">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="16"/>
                                 <state key="normal" title="Done">
@@ -529,7 +539,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kzB-EZ-tCg" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="jO0-Pn-wrv">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.96583396200000005" green="0.80607110260000003" blue="0.046044588089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
@@ -551,10 +561,10 @@
             <size key="intrinsicContentSize" width="45" height="20"/>
         </designable>
         <designable name="QgU-0t-d1S">
-            <size key="intrinsicContentSize" width="17.5" height="18"/>
+            <size key="intrinsicContentSize" width="17.333333333333332" height="18"/>
         </designable>
         <designable name="Zlj-vY-Gee">
-            <size key="intrinsicContentSize" width="78" height="26.5"/>
+            <size key="intrinsicContentSize" width="77.666666666666671" height="26.333333333333332"/>
         </designable>
         <designable name="aGN-pr-x6Q">
             <size key="intrinsicContentSize" width="48" height="28"/>
@@ -575,7 +585,7 @@
             <size key="intrinsicContentSize" width="126" height="32"/>
         </designable>
         <designable name="qAb-dW-fXw">
-            <size key="intrinsicContentSize" width="16" height="21.5"/>
+            <size key="intrinsicContentSize" width="16" height="21.666666666666668"/>
         </designable>
         <designable name="qJm-18-qcf">
             <size key="intrinsicContentSize" width="104" height="30"/>
@@ -584,13 +594,13 @@
             <size key="intrinsicContentSize" width="60" height="30"/>
         </designable>
         <designable name="v7U-d3-d7O">
-            <size key="intrinsicContentSize" width="56.5" height="20"/>
+            <size key="intrinsicContentSize" width="56.333333333333336" height="20"/>
         </designable>
         <designable name="y3t-fw-W18">
-            <size key="intrinsicContentSize" width="31" height="21.5"/>
+            <size key="intrinsicContentSize" width="31" height="21.666666666666668"/>
         </designable>
         <designable name="zzE-ce-Apu">
-            <size key="intrinsicContentSize" width="17.5" height="18"/>
+            <size key="intrinsicContentSize" width="17.333333333333332" height="18"/>
         </designable>
     </designables>
     <resources>
