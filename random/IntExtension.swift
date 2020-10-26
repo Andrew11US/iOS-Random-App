@@ -8,14 +8,11 @@
 
 import Foundation
 
-extension Int
-{
-    static func random(range: Range<Int> ) -> Int
-    {
+extension Int {
+    static func random(range: Range<Int> ) -> Int {
         var offset = 0
         
-        if range.lowerBound < 0   // allow negative ranges
-        {
+        if range.lowerBound < 0 {
             offset = abs(range.lowerBound)
         }
         

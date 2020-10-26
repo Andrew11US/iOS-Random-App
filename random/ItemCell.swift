@@ -9,7 +9,6 @@
 import UIKit
 
 class ItemCell: UITableViewCell {
-
     @IBOutlet weak var itemLbl: UILabel!
     
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -17,5 +16,4 @@ class ItemCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
 }

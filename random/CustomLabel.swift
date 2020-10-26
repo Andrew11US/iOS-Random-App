@@ -6,7 +6,7 @@
 //  Copyright © 2018 Andrii Halabuda. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 @IBDesignable
 class CustomLabel: UILabel {

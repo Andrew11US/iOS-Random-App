@@ -9,7 +9,6 @@
 import UIKit
 
 class FlipVC: UIViewController {
-
     @IBOutlet weak var coinImage: UIImageView!
     
     override func viewDidLoad() {
@@ -19,13 +18,10 @@ class FlipVC: UIViewController {
     }
 
     @IBAction func generateTapped(_ sender: CustomButton) {
-        
         let randomNumber: Int
         randomNumber = Int.random(range: 0..<2)
         coinImage.image = UIImage(named: String(randomNumber))
-        
         generateFeedback()
-        
     }
 
     func generateFeedback() {
@@ -33,5 +29,4 @@ class FlipVC: UIViewController {
         generator.prepare()
         generator.impactOccurred()
     }
-
 }

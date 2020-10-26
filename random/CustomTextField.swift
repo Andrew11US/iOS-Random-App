@@ -10,7 +10,6 @@ import UIKit
 
 @IBDesignable
 class CustomTextField: UITextField {
-    
     @IBInspectable var inset: CGFloat = 0
     
     @IBInspectable var cornerRadius: CGFloat = 5.0 {
@@ -41,7 +40,6 @@ class CustomTextField: UITextField {
     
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
-        
         setupView()
     }
     
@@ -50,5 +48,4 @@ class CustomTextField: UITextField {
         self.layer.borderWidth = borderWidth
         self.layer.borderColor = borderColor?.cgColor
     }
-    
 }
