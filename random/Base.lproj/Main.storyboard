@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kzB-EZ-tCg">
-    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
@@ -334,18 +334,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="P4Q-U0-YUB">
-                                <rect key="frame" x="30" y="240" width="315" height="438"/>
+                                <rect key="frame" x="30" y="281" width="315" height="250"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuY-Hu-hVC" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="315" height="112.66666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="50"/>
                                         <color key="backgroundColor" red="0.96862745098039216" green="0.80000000000000004" blue="0.047058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Na9-ts-yn8">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                                            </constraint>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="18"/>
                                         <state key="normal" title="NUMBERS">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="15"/>
+                                                <real key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
@@ -353,7 +358,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tal-6w-mTl" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="162.66666666666669" width="315" height="112.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="100" width="315" height="50"/>
                                         <color key="backgroundColor" red="0.96862745100000003" green="0.80000000000000004" blue="0.047058823530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="18"/>
                                         <state key="normal" title="LISTS">
@@ -361,7 +366,7 @@
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="15"/>
+                                                <real key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
@@ -369,7 +374,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJm-18-qcf" customClass="CustomButton" customModule="random" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="325.33333333333337" width="315" height="112.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="200" width="315" height="50"/>
                                         <color key="backgroundColor" red="0.96862745100000003" green="0.80000000000000004" blue="0.047058823530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HiraKakuStd-W8" family="Hiragino Kaku Gothic Std" pointSize="18"/>
                                         <state key="normal" title="FLIP COIN">
@@ -377,7 +382,7 @@
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="15"/>
+                                                <real key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
@@ -390,8 +395,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="P4Q-U0-YUB" firstAttribute="leading" secondItem="XfM-0T-M72" secondAttribute="leading" constant="30" id="1OB-xe-Uaq"/>
-                            <constraint firstItem="D4z-G4-ST1" firstAttribute="top" secondItem="P4Q-U0-YUB" secondAttribute="bottom" constant="100" id="7Iw-5P-Hea"/>
-                            <constraint firstItem="P4Q-U0-YUB" firstAttribute="top" secondItem="Cke-fW-0cY" secondAttribute="bottom" constant="100" id="Sgf-Xh-O8M"/>
+                            <constraint firstItem="P4Q-U0-YUB" firstAttribute="centerY" secondItem="XfM-0T-M72" secondAttribute="centerY" id="ahl-zj-SW2"/>
+                            <constraint firstItem="P4Q-U0-YUB" firstAttribute="centerX" secondItem="XfM-0T-M72" secondAttribute="centerX" id="fp2-Ad-D8c"/>
                             <constraint firstAttribute="trailing" secondItem="P4Q-U0-YUB" secondAttribute="trailing" constant="30" id="ovc-aW-wnb"/>
                         </constraints>
                     </view>

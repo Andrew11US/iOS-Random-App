@@ -51,6 +51,10 @@ class CustomButton: UIButton {
         self.layer.borderColor = borderColor?.cgColor
         
         self.addTarget(self, action: #selector(CustomButton.scaleToSmall), for: .touchDown)
+        self.addTarget(self, action: #selector(CustomButton.scaleDefault), for: .touchCancel)
+        self.addTarget(self, action: #selector(CustomButton.scaleDefault), for: .touchDragExit)
+        self.addTarget(self, action: #selector(CustomButton.scaleDefault), for: .touchDragOutside)
+        self.addTarget(self, action: #selector(CustomButton.scaleDefault), for: .touchUpOutside)
         self.addTarget(self, action: #selector(CustomButton.scaleDefault), for: .touchUpInside)
         self.addTarget(self, action: #selector(CustomButton.generateFeedback), for: .touchUpInside)
     }
